@@ -21,7 +21,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-ndxp0l$m=fb=_idxx_i1%70m(j&lgb3tg%il)=1=dox@v66-wg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -73,7 +72,7 @@ SIMPLE_JWT = {
     'ROTATE_REFRESH_TOKENS': False,
     'BLACKLIST_AFTER_ROTATION': False,
     'ALGORITHM': 'HS256',
-    'SIGNING_KEY': 'a3901588d8261f77193c3dc52d1e2226c61bcb5572b5780eeffedc3f270af0fde001910b7f40bb1448fa3a321319a117194c55e1eecf47f7928d7034fb72f2045d1241766aec2aa4bd7246628f23883db2a7c23bab7c432f765b78dfd9f83c8fed9457ad0d2676334a9cc89ba57ca182f333b0103fa29d96486c514c9dc1d132371b19a530036adb0d9896eb58a06ad45bb85354e2f02c2e529673f270a82a2b65f6f15d9873eb8d2cda2c85a08dedd9e9e4e94d74020a8b130cf04338427fc9ce1212d4df5eee8edfc2ce444647d161171d55aa8689b4d62f48f6112504a40db0e798f96301dd12b17c76637846144ca7445309b5551b9d523dbb19cc03b6a2',
+    'SIGNING_KEY': '',
 }
 
 ROOT_URLCONF = 'blog.urls'
