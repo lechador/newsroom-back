@@ -119,7 +119,6 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'blog_newsroom',
         'USER': 'root',
-        'PASSWORD': 'Gran1408!',
         'HOST':'localhost',
         'PORT':'3306',
     }
