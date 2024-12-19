@@ -84,7 +84,7 @@ SESSION_CACHE_ALIAS = 'default'
 CACHES = {
     'default': {
         'BACKEND': 'django_redis.cache.RedisCache',
-        'LOCATION': 'redis://default:I4lua9vZTDTJdLIs8LQk8yLm6frmAUfC@redis-19494.c311.eu-central-1-1.ec2.redns.redis-cloud.com:19494',
+        
         'OPTIONS': {
             'CLIENT_CLASS': 'django_redis.client.DefaultClient',
             'CONNECTION_POOL_CLASS': 'redis.ConnectionPool',
@@ -131,9 +131,9 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp-relay.brevo.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = '46ff79001@smtp-brevo.com'
-EMAIL_HOST_PASSWORD = ''
-DEFAULT_FROM_EMAIL = '46ff79001@smtp-brevo.com'
+
+
+
 
 FRONTEND_URL= 'https://newsroom-front.vercel.app'
 
