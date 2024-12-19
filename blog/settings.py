@@ -132,7 +132,7 @@ EMAIL_HOST = 'smtp-relay.brevo.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = '46ff79001@smtp-brevo.com'
-EMAIL_HOST_PASSWORD = 'xsmtpsib-4bffbe0c1a810564f3ceb7e095b84d383ebb12653d6672f3fb8655ccaadf4057-a9hXzSWIM6ZtKCAJ'
+EMAIL_HOST_PASSWORD = ''
 DEFAULT_FROM_EMAIL = '46ff79001@smtp-brevo.com'
 
 FRONTEND_URL= 'https://newsroom-front.vercel.app'
